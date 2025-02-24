@@ -1,4 +1,41 @@
-body {background-color: rgb(169, 211, 244)}
-h1{color: rgb(96, 180, 180)}
-img{border-style: dotted;border-width: 10px;border-color: black;}
-a {color: white;font-size: 36px;text-decoration-line: none;}
+body {
+    background-color: rgb(169, 211, 244)
+}
+
+h1 {
+    color: rgb(96, 180, 180)
+}
+
+img {
+    border-style: dotted;
+    border-width: 10px;
+    border-color: black;
+}
+
+img:hover {
+    border-color: yellow;
+    border-style: dashed;
+}
+
+a {
+    color: white;
+    font-size: 36px;
+    text-decoration-line: none;
+}
+
+#main-nav {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+#main-nav a {
+    font-size: xx-large;
+    font-style: oblique;
+    color: rgba(178, 176, 205, 0.901);
+    margin: 20px;
+}
+
+#main-nav a:hover {
+    text-decoration: underline;
+}
